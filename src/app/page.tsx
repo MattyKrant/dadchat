@@ -9,22 +9,22 @@ export default function Home() {
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                  Welcome to DadChat
+                  ClaimAppeal AI
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                  A community where dads can connect, share advice, and support each other.
+                  Turn your denied health insurance claims into winning appeals with AI-powered letter generation.
                 </p>
               </div>
               <div className="space-x-4">
                 <Link
-                  className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-                  href="/sign-up"
+                  className="inline-flex h-10 items-center justify-center rounded-md bg-blue-600 px-8 text-sm font-medium text-white shadow transition-colors hover:bg-blue-700 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-950 disabled:pointer-events-none disabled:opacity-50"
+                  href="/signup"
                 >
                   Get Started
                 </Link>
                 <Link
                   className="inline-flex h-10 items-center justify-center rounded-md border border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
-                  href="/sign-in"
+                  href="/signin"
                 >
                   Sign In
                 </Link>
@@ -36,21 +36,21 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
               <div className="space-y-2">
-                <h3 className="text-2xl font-bold">Share Experiences</h3>
+                <h3 className="text-2xl font-bold">Upload Your Denial</h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Connect with other dads and share your parenting experiences, challenges, and victories.
+                  Simply upload your denied insurance claim document (PDF or image) and let our OCR technology extract the key details.
                 </p>
               </div>
               <div className="space-y-2">
-                <h3 className="text-2xl font-bold">Get Advice</h3>
+                <h3 className="text-2xl font-bold">AI-Powered Appeals</h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Ask questions and get advice from experienced dads on everything from diaper changes to college planning.
+                  Our advanced AI analyzes your claim details and generates a professional, personalized appeal letter that follows industry best practices.
                 </p>
               </div>
               <div className="space-y-2">
-                <h3 className="text-2xl font-bold">Build Community</h3>
+                <h3 className="text-2xl font-bold">Download & Submit</h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Join a supportive community of fathers who understand the joys and challenges of fatherhood.
+                  Get your completed appeal letter instantly. Copy to clipboard or download as PDF, ready to submit to your insurance company.
                 </p>
               </div>
             </div>
@@ -61,7 +61,7 @@ export default function Home() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <p className="text-center text-sm text-gray-500 dark:text-gray-400">
-              © 2024 DadChat. All rights reserved.
+              © 2024 ClaimAppeal AI. All rights reserved.
             </p>
           </div>
         </div>
